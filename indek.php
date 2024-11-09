@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-<div class="mb-3">
+<div class="container">
+    <div clas="row mt-">
+        <div class="col-6 m-auto">
+            <div class="card">
+            <div class="card-header text-center">
+                <h3>Form Dosen</h3>
+            </div>
+            <div class="card-body">
+                <form action="proses_pert3.php" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nidn</label>
                         <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text"></div>
