@@ -63,5 +63,7 @@ mysqli_query($koneksi,$simpan);
         </div>
     </div>
 </div>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
