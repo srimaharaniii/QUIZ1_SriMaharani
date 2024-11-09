@@ -15,7 +15,7 @@
                 <h3>Form Dosen</h3>
             </div>
             <div class="card-body">
-                <form action="indek.php" method="POST" enctype="multipart/form-data">
+                <form action="indek_pross.php" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nidn</label>
                         <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
