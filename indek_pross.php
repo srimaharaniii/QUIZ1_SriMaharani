@@ -8,7 +8,8 @@ $tempat = $_POST['tempat'];
 $tanggal = $_POST['tanggal'];
 $email = $_POST['email'];
 
-$simpan = "INSERT INTO tb_dosen (nidn,nama,rumpun,tempat,tanggal,email) VALUES ('$nidn','$name','$rumpun','$tempat','$tanggal','$email')";
+$simpan = "INSERT INTO tb_dosen (nidn,nama_lengkap,rumpun,tempat_lahir,tgl_lahir,email) VALUES ('$nidn','$name','$rumpun','$tempat','$tanggal','$email')";
+
 mysqli_query($koneksi,$simpan);
 
 ?>

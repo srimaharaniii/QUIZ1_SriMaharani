@@ -23,17 +23,17 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
-                        <input type="text" name="name" class="form-control" id="exampleInputPassword1">
+                        <input type="text" name="nama" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Rumpun</label>
                         <select name="rumpun" id="" class="from-control">
-                            <option value="">-Pilih Rumpun</option>
-                            <option value="Islam">Komputer</option>
-                            <option value="Kristen">Akutansi</option>
-                            <option value="Katolik">Manajemen</option>
-                            <option value="Budha">Perpajakan</option>
-                            <option value="Hindu">Bisnis</option>
+                            <option value="">Pilih Rumpun</option>
+                            <option value="Komputer">Komputer</option>
+                            <option value="Akutansi">Akutansi</option>
+                            <option value="Manajemen">Manajemen</option>
+                            <option value="Perpajakan">Perpajakan</option>
+                            <option value="Bisnis">Bisnis</option>
                         </select>
                     </div>
                     <div class="mb-3">
